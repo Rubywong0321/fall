@@ -1,0 +1,371 @@
+body{
+    font-family:Arial, Calibri, Microsoft JhengHei;
+    color: #505050;
+    letter-spacing: 2px;
+    background-color: #fadda3;
+    background-image: url(../images/back1.gif);
+}
+h1,h2, h3, h4{
+    font-size: 1rem;
+}
+a, a:hover{
+    font-family:Arial, Calibri, Microsoft JhengHei;
+    text-decoration:none;
+    color: #505050;
+}
+ul,div,li{
+    list-style: none;padding: 0;
+    
+}
+.w1100{
+    width: 98%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.cleanbox{
+    width: 100%;
+    clear: both;
+    float: none;   
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #de8c1f;
+    background-image: url(../images/B_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header>section{
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.header>section>div{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 786px;
+    box-sizing: border-box;
+}
+.header>section>div>img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+        width: 100%;
+        background-color: #521919;
+    }
+.menu ul {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 1.3% 0;
+    }
+.menu ul li{
+        transition: 0.1s;
+        display: block;
+        margin: auto;
+        font-weight: 600;
+        box-sizing: border-box;
+       
+    }
+.menu ul li a{
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.2rem;
+        line-height: 1;
+        display: block;
+        padding: 8px 30px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        box-sizing: border-box;
+    }
+.menu ul a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.menu2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.icon{
+    display: none;
+}
+.main{
+    min-height: 600px;
+
+}
+/**表格盤子開始**/
+.plate{
+    font-size: 1rem;
+    font-family:Arial, Calibri, Microsoft JhengHei !important;
+    color: #521919  !important;
+    letter-spacing: 2px; 
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 8px;
+
+    
+}
+.plate ul{
+    width: 95%;
+    max-width: 950px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 4vh;
+    border-bottom: 3px solid #521919;
+}
+.plate ul .li_t {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff2b19;
+    padding: 5px;
+    width: 100%;
+    margin: 12px 0;
+}
+.plate li {
+    width: 100%;
+    overflow: hidden;
+}
+.plate a{
+    color: #521919 ;
+    font-weight: 600  ;
+    font-size: 1.3rem ;
+    transition: all 0.2s;
+    line-height: 1.5;
+    padding: 5px;
+    display: block;
+    transition: all 0.3s;
+    margin: 5px 0;
+
+}
+.plate a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #1a9f34 ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 3px;
+
+}
+.plate p{
+    font-size: 1rem;
+    color: #838383;
+    float: left;
+}
+.plate b:nth-last-of-type(1){
+    font-size: 1.5rem;
+    color: #ff2b19;
+    font-weight: 600;
+    float: right;
+}
+/**表格盤子結束**/
+.content{
+    background-color: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+    padding: 20px; 
+}
+.content_box{
+    margin-top: 40px; 
+    overflow: hidden;
+}
+.content_box div{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.content_box .text_box{
+    padding: 20px;
+
+}
+.content_box .text_box h4{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    color: #de8c1f;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.content_box .text_box h3{
+    font-size: 2.2rem;
+    margin: 8px 0 4px;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    font-weight: 800;
+    color: #521919
+}
+.content_box .text_box p{
+    display: block;
+    text-align: left;
+    line-height: 1.4;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    padding: 8px 0;
+    margin-bottom: 6px;
+}
+.content_box .text_box span{
+    display: inline-block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #7b7b7b;
+    float: left;
+}
+.content_box .text_box a{
+    text-align: right;
+    width: 20%;
+    color: #ff2b19;
+    font-size: 0.9rem;
+    float: right;
+}
+.content_box>.img_box{
+    overflow: hidden;
+
+}
+.content_box>.img_box img{
+    width: 100%;
+    height: auto;
+}
+.special{
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.special div{
+    width: 100%;
+    height: auto;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.special img{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #881717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 60px;
+}
+.footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    
+}
+
+@media screen and (max-width: 650px){
+    .header>section{
+        height: auto;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background-image: url(../images/list.png);
+        background-position: center;
+        background-size: contain;
+    }
+
+    .menu ul {
+        position: fixed;
+        width: 100%;
+        height: 52%;
+        top: -54%;
+        left: 0;
+        background-color: rgba(82, 25, 25);
+        flex-wrap: wrap;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+        box-sizing: border-box;
+        transition: 0.5s all;
+    }
+    .menu_show ul{
+        top: 0;
+    }
+    .menu_show ul li:nth-of-type(1){
+        margin-top: 2rem;
+    }
+    .menu_show .icon{
+        display: block;
+        position: fixed;
+        font-size: 1.5rem;
+        top: 2%;
+        right: 3%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+/*
+    .menu_show{
+        top: 0;
+    }
+*/
+    .menu ul li{
+        width: 100%;
+        margin: 0;
+    }
+    .menu ul li a{
+        width: 80%;
+        margin:  0 auto;
+    }
+    .w1100{
+        width: 100%;
+    }
+    .main{
+        min-height: 200px;
+        width: 100%;
+    }
+    /**表格盤子開始**/
+    .plate{
+        padding: 1%;
+        padding-bottom: 3%;
+
+    }
+    .plate ul{
+        width: 96%;
+    }
+    .plate ul .li_t {
+        font-size: 1.4rem;
+    }
+    .plate a{
+        color: #521919 ;
+        font-size: 1.2rem  ;
+        line-height: 1.2;
+    }
+    /**表格盤子結束**/
+    .content_box div{
+        width: 100%;
+    }
+    .content_box .text_box{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .content_box .text_box span{
+        width: 70%;
+        text-align: left;
+        font-size: 0.9rem;
+        color: #7b7b7b;
+    }
+    .content_box .text_box a{
+        text-align: right;
+        width: 30%;
+        color: #ff2b19;
+        font-size: 0.9rem;
+    }  
+    .content_box .text_box h3{
+        font-size: 2rem;
+    }
+    .content_box .text_box p{
+        display: block;
+        line-height: 1.5;
+        font-size: 0.9rem;
+    }
+
+}
